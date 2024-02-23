@@ -39,6 +39,8 @@
 
 .path-form__submit {
     display: block;
+    transition: all 10ms;
+    box-sizing: border-box;
     font-family: Inter;
     font-weight: 600; /*semi-bold*/
     font-size: 20px;
@@ -49,6 +51,11 @@
     margin-top: 40px;
     border-style: none;
     border-radius: 5px;
+}
+
+.path-form__submit:hover, .path-form__submit:active {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .output-form {
