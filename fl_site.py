@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html', title='О парсере')
+    return render_template('index.html', title='Парсер')
     
 
 @app.route('/about')  # обработчик для url: '/about'
